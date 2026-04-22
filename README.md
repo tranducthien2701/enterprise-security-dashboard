@@ -27,7 +27,10 @@ Dự án này được xây dựng với kiến trúc Microservices cơ bản, p
 
 ---
 
-## BACKEND
+## 🚀 Hướng dẫn cài đặt và chạy dự án
+
+### 1. BACKEND (FastAPI)
+```bash
 # Di chuyển vào thư mục backend
 cd backend
 
@@ -40,10 +43,10 @@ pip install -r requirements.txt
 
 # Khởi động server
 uvicorn main:app --reload --port 8000
+```
 
-
-
-## FRONTEND
+### 2. FRONTEND (React/Vite)
+```bash
 # Di chuyển vào thư mục frontend
 cd frontend
 
@@ -52,9 +55,7 @@ npm install
 
 # Khởi động giao diện
 npm run dev
-
-
-
+```
 
 ## 📂 Cấu trúc thư mục
 
