@@ -21,7 +21,7 @@ Dự án này được xây dựng với kiến trúc Microservices cơ bản, p
 * `pywin32` (Giao tiếp với Windows API)
 
 **Frontend (UI/UX):**
-* [React](https://react.dev/) + [Vite](https://vitejs.dev/) (Hiệu năng build cực nhanh)
+* [React](https://react.dev/) + [Vite](https://vitejs.dev/) (Hiệu năng build)
 * [Recharts](https://recharts.org/) (Vẽ biểu đồ dữ liệu)
 * [Lucide React](https://lucide.dev/) (Hệ thống Icon)
 
