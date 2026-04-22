@@ -27,6 +27,35 @@ Dự án này được xây dựng với kiến trúc Microservices cơ bản, p
 
 ---
 
+## BACKEND
+# Di chuyển vào thư mục backend
+cd backend
+
+# Tạo và kích hoạt môi trường ảo
+python -m venv venv
+venv\Scripts\activate
+
+# Cài đặt thư viện
+pip install -r requirements.txt
+
+# Khởi động server
+uvicorn main:app --reload --port 8000
+
+
+
+## FRONTEND
+# Di chuyển vào thư mục frontend
+cd frontend
+
+# Cài đặt thư viện (chỉ cần chạy lần đầu)
+npm install
+
+# Khởi động giao diện
+npm run dev
+
+
+
+
 ## 📂 Cấu trúc thư mục
 
 ```text
